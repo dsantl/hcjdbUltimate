@@ -35,6 +35,10 @@ package com.sun.tools.example.debug.tty;
 
 import java.util.*;
 import java.text.MessageFormat;
+
+import com.sun.tools.example.debug.tty.Env;
+import com.sun.tools.example.debug.tty.MessageOutput;
+import com.sun.tools.example.debug.tty.ThreadInfo;
 /**
  * Internationalization (i18n) convenience methods for jdb.
  *

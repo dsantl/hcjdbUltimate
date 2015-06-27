@@ -37,6 +37,10 @@ package com.sun.tools.example.debug.tty;
 import com.sun.jdi.*;
 import com.sun.jdi.request.EventRequestManager;
 import com.sun.jdi.request.EventRequest;
+import com.sun.tools.example.debug.tty.MalformedMemberNameException;
+import com.sun.tools.example.debug.tty.MessageOutput;
+import com.sun.tools.example.debug.tty.ReferenceTypeSpec;
+import com.sun.tools.example.debug.tty.WatchpointSpec;
 
 class ModificationWatchpointSpec extends WatchpointSpec {
     ModificationWatchpointSpec(ReferenceTypeSpec refSpec, String fieldId)

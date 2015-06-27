@@ -39,6 +39,12 @@ import com.sun.jdi.request.EventRequest;
 import com.sun.jdi.request.ExceptionRequest;
 import com.sun.jdi.request.ClassPrepareRequest;
 import com.sun.jdi.event.ClassPrepareEvent;
+import com.sun.tools.example.debug.tty.Env;
+import com.sun.tools.example.debug.tty.MessageOutput;
+import com.sun.tools.example.debug.tty.PatternReferenceTypeSpec;
+import com.sun.tools.example.debug.tty.ReferenceTypeSpec;
+import com.sun.tools.example.debug.tty.VMNotConnectedException;
+
 import java.util.ArrayList;
 
 abstract class EventRequestSpec {

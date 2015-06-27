@@ -37,6 +37,10 @@ package com.sun.tools.example.debug.tty;
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
 import com.sun.jdi.request.EventRequest;
+import com.sun.tools.example.debug.tty.Env;
+import com.sun.tools.example.debug.tty.EventNotifier;
+import com.sun.tools.example.debug.tty.MessageOutput;
+import com.sun.tools.example.debug.tty.ThreadInfo;
 
 public class EventHandler implements Runnable {
 

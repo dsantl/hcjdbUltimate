@@ -39,6 +39,10 @@ import com.sun.jdi.connect.*;
 import com.sun.jdi.request.EventRequestManager;
 import com.sun.jdi.request.ThreadStartRequest;
 import com.sun.jdi.request.ThreadDeathRequest;
+import com.sun.tools.example.debug.tty.Commands;
+import com.sun.tools.example.debug.tty.Env;
+import com.sun.tools.example.debug.tty.MessageOutput;
+import com.sun.tools.example.debug.tty.VMNotConnectedException;
 
 import java.util.*;
 import java.util.regex.*;

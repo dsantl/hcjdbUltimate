@@ -36,6 +36,16 @@ package com.sun.tools.example.debug.tty;
 
 import com.sun.jdi.request.EventRequest;
 import com.sun.jdi.event.ClassPrepareEvent;
+import com.sun.tools.example.debug.tty.AccessWatchpointSpec;
+import com.sun.tools.example.debug.tty.BreakpointSpec;
+import com.sun.tools.example.debug.tty.EventRequestSpec;
+import com.sun.tools.example.debug.tty.ExceptionSpec;
+import com.sun.tools.example.debug.tty.MalformedMemberNameException;
+import com.sun.tools.example.debug.tty.MessageOutput;
+import com.sun.tools.example.debug.tty.ModificationWatchpointSpec;
+import com.sun.tools.example.debug.tty.PatternReferenceTypeSpec;
+import com.sun.tools.example.debug.tty.ReferenceTypeSpec;
+import com.sun.tools.example.debug.tty.WatchpointSpec;
 
 import java.util.ArrayList;
 import java.util.Collections;

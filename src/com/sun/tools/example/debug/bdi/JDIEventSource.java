@@ -36,7 +36,6 @@ package com.sun.tools.example.debug.bdi;
 
 import com.sun.jdi.*;
 import com.sun.jdi.event.*;
-
 import com.sun.tools.example.debug.event.*;
 
 import javax.swing.SwingUtilities;

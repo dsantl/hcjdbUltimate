@@ -36,6 +36,10 @@ package com.sun.tools.example.debug.tty;
 
 import com.sun.jdi.ReferenceType;
 import com.sun.jdi.request.*;
+import com.sun.tools.example.debug.tty.EventRequestSpec;
+import com.sun.tools.example.debug.tty.ExceptionSpec;
+import com.sun.tools.example.debug.tty.MessageOutput;
+import com.sun.tools.example.debug.tty.ReferenceTypeSpec;
 
 class ExceptionSpec extends EventRequestSpec {
     private boolean notifyCaught;

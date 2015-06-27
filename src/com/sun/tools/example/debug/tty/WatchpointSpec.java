@@ -34,6 +34,12 @@
 
 package com.sun.tools.example.debug.tty;
 
+import com.sun.tools.example.debug.tty.EventRequestSpec;
+import com.sun.tools.example.debug.tty.MalformedMemberNameException;
+import com.sun.tools.example.debug.tty.MessageOutput;
+import com.sun.tools.example.debug.tty.ReferenceTypeSpec;
+import com.sun.tools.example.debug.tty.WatchpointSpec;
+
 abstract class WatchpointSpec extends EventRequestSpec {
     final String fieldId;
 

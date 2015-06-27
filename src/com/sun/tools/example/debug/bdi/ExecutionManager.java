@@ -37,13 +37,13 @@ package com.sun.tools.example.debug.bdi;
 import com.sun.jdi.*;
 import com.sun.jdi.request.*;
 import com.sun.jdi.connect.*;
-import com.sun.tools.example.debug.expr.ExpressionParser;
-import com.sun.tools.example.debug.expr.ParseException;
 
 import java.io.*;
 import java.util.*;
 
 import com.sun.tools.example.debug.event.*;
+import com.sun.tools.example.debug.expr.ExpressionParser;
+import com.sun.tools.example.debug.expr.ParseException;
 
 import javax.swing.SwingUtilities;
 

@@ -38,6 +38,10 @@ import com.sun.jdi.ThreadReference;
 import com.sun.jdi.ThreadGroupReference;
 import com.sun.jdi.IncompatibleThreadStateException;
 import com.sun.jdi.StackFrame;
+import com.sun.tools.example.debug.tty.Env;
+import com.sun.tools.example.debug.tty.MessageOutput;
+import com.sun.tools.example.debug.tty.ThreadInfo;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
