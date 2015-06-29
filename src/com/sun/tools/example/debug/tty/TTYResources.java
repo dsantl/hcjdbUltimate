@@ -167,7 +167,7 @@ public class TTYResources extends java.util.ListResourceBundle {
 				{ "is not a valid method name", "\"{0}\" is not a valid method name." },
 				{ "is not a valid thread id", "\"{0}\" is not a valid thread id." },
 				{ "is not a valid threadgroup name", "\"{0}\" is not a valid threadgroup name." },
-				{ "jdb prompt with no current thread", "" },
+				{ "jdb prompt with no current thread", "> " },
 				{ "jdb prompt thread name and current stack frame", "{0}[{1,number,integer}] " },
 				{ "killed", "{0} killed" },
 				{ "killing thread:", "killing thread: {0}" },

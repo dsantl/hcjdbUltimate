@@ -33,7 +33,7 @@
 
 package com.sun.tools.example.debug.tty;
 
-import hr.hashcode.hcjdb.IO.ConsoleInputModule;
+import hr.hashcode.hcjdb.IO.ConsoleInputOutputModule;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -88,7 +88,7 @@ public class TTY implements EventNotifier {
 	/**
 	 * The name of this tool.
 	 */
-	private static final String progname = "jdb";
+	private static final String progname = "hcjdb";
 
 	@Override
 	public void vmStartEvent(VMStartEvent se) {
@@ -664,7 +664,6 @@ public class TTY implements EventNotifier {
 			this.handler = new EventHandler(this, true);
 		}
 		try {
-			ConsoleInputModule in = new ConsoleInputModule();
 
 			String lastLine = null;
 
@@ -706,7 +705,7 @@ public class TTY implements EventNotifier {
 			// Process interactive commands.
 			MessageOutput.printPrompt();
 			while (true) {
-				String ln = in.readLine();
+				String ln = ConsoleInputOutputModule.readLine();
 				if (ln == null) {
 					MessageOutput.println("Input stream closed.");
 					ln = "quit";

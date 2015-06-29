@@ -1609,7 +1609,6 @@ class Commands {
 			MessageOutput.println("No objects specified.");
 			return;
 		}
-
 		while (t.hasMoreTokens()) {
 			String expr = t.nextToken("");
 			Value val = evaluate(expr);

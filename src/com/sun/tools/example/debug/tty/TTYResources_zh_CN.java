@@ -167,7 +167,7 @@ public class TTYResources_zh_CN extends java.util.ListResourceBundle {
 				{ "is not a valid method name", "\"{0}\" \u4E0D\u662F\u6709\u6548\u7684\u65B9\u6CD5\u540D\u3002" },
 				{ "is not a valid thread id", "\"{0}\" \u4E0D\u662F\u6709\u6548\u7684\u7EBF\u7A0B ID\u3002" },
 				{ "is not a valid threadgroup name", "\"{0}\" \u4E0D\u662F\u6709\u6548\u7684\u7EBF\u7A0B\u7EC4\u540D\u79F0\u3002" },
-				{ "jdb prompt with no current thread", "" },
+				{ "jdb prompt with no current thread", "> " },
 				{ "jdb prompt thread name and current stack frame", "{0}[{1,number,integer}] " },
 				{ "killed", "{0}\u5DF2\u7EC8\u6B62" },
 				{ "killing thread:", "\u6B63\u5728\u7EC8\u6B62\u7EBF\u7A0B: {0}" },
